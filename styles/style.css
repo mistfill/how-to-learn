@@ -13,6 +13,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+div {
+  border: 1px solid red;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -48,6 +52,16 @@
 /*Ссылка внутри нижней подписи в header*/
 .header__subtitle_link {
   text-decoration: none;
+}
+
+/*Картина - Опять двойка*/
+.header__pic {
+  position: absolute;
+  width: 765px;
+  height: 608px;
+
+  bottom: 0;
+  right: 0;
 }
 
 /*Квадрат синий в header*/
