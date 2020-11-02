@@ -9,21 +9,51 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.page__font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
 
-  /*position: relative;*/
-  /* выше установили ограничения для секции */
+  display: flex;
+  position: relative;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+/*Заголовок в header*/
+.header__title {
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+
+  margin: auto 0;
+  padding-left: 64px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/*Нижняя подпись в header*/
+.header__subtitle {
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+/*Ссылка внутри нижней подписи в header*/
+.header__subtitle_link {
+  text-decoration: none;
+}
+
+/*Квадрат синий в header*/
 .header__square-pic {
   height: 568px;
   width: 568px;
-
-  display: flex;
 }
 
 /*Лого для header
@@ -43,6 +73,8 @@
 
   top: 30px;
   left: 64px;
+
+  z-index: 2;
 }
 
 /* и элемента с модификатором вида ключ-значение */
