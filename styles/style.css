@@ -35,7 +35,7 @@ div {
   margin: auto 0;
   padding-left: 64px;
   box-sizing: border-box;
-  z-index: 1;
+  z-index: 2;
 }
 
 /*Нижняя подпись в header*/
@@ -47,6 +47,8 @@ div {
   position: absolute;
   bottom: 30px;
   left: 64px;
+
+  z-index: 2;
 }
 
 /*Ссылка внутри нижней подписи в header*/
@@ -62,12 +64,21 @@ div {
 
   bottom: 0;
   right: 0;
+
+  z-index: 1;
 }
 
 /*Квадрат синий в header*/
 .header__square-pic {
+  position: absolute;
+
   height: 568px;
   width: 568px;
+
+  top: 64px;
+  right: 0;
+
+  background-color: #2f80ed;
 }
 
 /*Лого для header
@@ -88,7 +99,7 @@ div {
   top: 30px;
   left: 64px;
 
-  z-index: 2;
+  z-index: 3;
 }
 
 /* и элемента с модификатором вида ключ-значение */
