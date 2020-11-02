@@ -13,6 +13,8 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+
+  /*position: relative;*/
   /* выше установили ограничения для секции */
 }
 
@@ -20,6 +22,27 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+
+  display: flex;
+}
+
+/*Лого для header
+Логотип - повторяющийся элемент, далее содержится в подвале сайта.*/
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
+/*Изображение лого header*/
+.logo__place_header {
+  position: absolute;
+  background-image: url('../images/logo_place_header.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  top: 30px;
+  left: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
