@@ -9,6 +9,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*Серый фон*/
+.background-color-grey {
+  background-color: #f2f2f2;
+}
+
 /*Общий стиль текста для страницы*/
 .page__font {
   font-family: Arial, Helvetica, sans-serif;
@@ -19,9 +24,54 @@
   color: #2f80ed;
 }
 
+/*Общий стиль текста для section-title*/
+.section-title {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+/*Общий стиль текста для section-subtitle*/
+.section-subtitle {
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
 /*Обводит все div красным*/
-div {
+.border-red {
   border: 1px solid red;
+}
+
+/*Общий стиль для table*/
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Стиль заголовка в ячейках table*/
+.table__heading {
+  text-align: start;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+
+  margin: 0;
+}
+
+/*Стиль текста в ячейках table*/
+.table__text {
+  text-align: start;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+  margin: 0;
+  padding-top: 20px;
 }
 
 .header {
@@ -112,15 +162,15 @@ div {
 /*Второй блок*/
 .description {
   display: flex;
-
-  border: 1px solid red;
 }
 
 /*Общий информационный блок в description*/
 .description__two-columns {
   width: 80%;
 
-  margin: 100px auto;
+  margin: 0 auto;
+
+  padding: 100px 0 100px 0;
 
   display: flex;
   flex-direction: row;
@@ -163,10 +213,37 @@ div {
   font-weight: 700;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+/*Общий стиль секции digits*/
+.digits {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Стиль заголовка в digits*/
+.digits__section-title {
+  width: 60%;
+  margin: auto;
+}
+
+/*Стиль темы первого */
+.digits__section-subtitle {
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/*Общий стиль таблицы в digits*/
+.digits__table {
+  width: 1100px;
+  margin: auto;
+
+  padding-bottom: 100px;
+}
+
+/*Стиль ячейкт в блоке digits*/
+.table__cell-digits {
+  width: 250px;
+  min-height: 50px;
+
+  padding-top: 60px;
 }
