@@ -54,11 +54,6 @@ a {
   font-weight: normal;
 }
 
-/*Обводит красным*/
-.border-red {
-  border: 1px solid red;
-}
-
 /*Общий стиль для блок header*/
 .header {
   height: 100vh;
@@ -123,11 +118,12 @@ a {
 Логотип - повторяющийся элемент, далее содержится в подвале сайта.*/
 .logo {
   width: 183px;
-  height: 32px;
 }
 
 /*Изображение лого header*/
 .logo__place_header {
+  height: 32px;
+
   position: absolute;
   background-image: url('../images/logo_place_header.svg');
   background-position: center;
@@ -379,4 +375,110 @@ a {
   width: 200px;
 
   padding-top: 80px;
+}
+
+/*Общий стиль для подвала*/
+.footer {
+  min-height: 350px;
+
+  display: flex;
+}
+
+/*Стиль общего блока с колонками в footer*/
+.footer__column {
+  width: 90%;
+
+  margin: 60px auto 40px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Левый большой блок в footer__columns*/
+.footer__column-content-copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Логотип с модификатором footer*/
+.logo__place_footer {
+  height: 35px;
+
+  margin: 0;
+
+  background-image: url('../images/logo_place_footer.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*Элемент - автор в блоке footer*/
+.footer_author {
+  width: fit-content;
+
+  margin: 0;
+  padding: 18px 0;
+
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/*Второй блок в footer*/
+.footer__column-content-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/*Базовый заголовок*/
+.footer__column-heading {
+  margin: 0;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*Блок для ссылок*/
+.footer__column-links {
+  padding: 20px 0 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Индивидуальный стиль ссылок в подвале*/
+.footer_column-links-indiv {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+/*Стиль иконок соцсетей в подвале*/
+.footer_column-links-pic {
+  width: 16px;
+  height: 16px;
+
+  margin: auto 0;
+  padding-right: 10px;
+}
+
+/*Текст внутри ссылок на соцсети в подвале*/
+.footer_column-links-text {
+  margin: 0;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
