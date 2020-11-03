@@ -40,40 +40,12 @@
   font-weight: normal;
 }
 
-/*Обводит все div красным*/
+/*Обводит красным*/
 .border-red {
   border: 1px solid red;
 }
 
-/*Общий стиль для table*/
-.table {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-/*Стиль заголовка в ячейках table*/
-.table__heading {
-  text-align: start;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-
-  margin: 0;
-}
-
-/*Стиль текста в ячейках table*/
-.table__text {
-  text-align: start;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-
-  margin: 0;
-  padding-top: 20px;
-}
-
+/*Общий стиль для блок header*/
 .header {
   height: 100vh;
   min-height: 600px;
@@ -159,7 +131,7 @@
   z-index: 3;
 }
 
-/*Второй блок*/
+/*Второй блок на лендинге*/
 .description {
   display: flex;
 }
@@ -225,10 +197,40 @@
   margin: auto;
 }
 
-/*Стиль темы первого */
+/*Стиль темы в digits*/
 .digits__section-subtitle {
   width: 60%;
   margin: auto;
+  padding-top: 20px;
+}
+
+/*Общий стиль для table
+Повторяется ниже на лендинге*/
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Стиль заголовка в ячейках table*/
+.table__heading {
+  text-align: start;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+
+  margin: 0;
+}
+
+/*Стиль текста в ячейках table*/
+.table__text {
+  text-align: start;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+  margin: 0;
   padding-top: 20px;
 }
 
@@ -240,7 +242,7 @@
   padding-bottom: 100px;
 }
 
-/*Стиль ячейкт в блоке digits*/
+/*Стиль ячейки в блоке digits*/
 .table__cell-digits {
   width: 250px;
   min-height: 50px;
