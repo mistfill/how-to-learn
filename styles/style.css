@@ -9,6 +9,10 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*Серый фон*/
 .background-color-grey {
   background-color: #f2f2f2;
@@ -78,11 +82,6 @@
   left: 64px;
 
   z-index: 2;
-}
-
-/*Ссылка внутри нижней подписи в header*/
-.header__subtitle_link {
-  text-decoration: none;
 }
 
 /*Картина - Опять двойка*/
@@ -248,4 +247,70 @@
   min-height: 50px;
 
   padding-top: 60px;
+}
+
+/*Стиль блока feynman*/
+.feynman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  height: 790px;
+}
+
+/*Фото Фейнмана*/
+.feynman__pic {
+  position: absolute;
+
+  width: 867px;
+  height: 637px;
+
+  bottom: 0;
+  left: 0;
+
+  z-index: 1;
+
+  background-image: url('../images/feynman.png');
+}
+
+/*Заголовок блока feynman*/
+.feynman__title {
+  width: 648px;
+
+  margin: 100px auto 0;
+
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+
+  z-index: 2;
+}
+
+/*Подзаголовок блока feynman*/
+.feynman__subtitle {
+  width: fit-content;
+
+  margin: 70px auto 0;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+
+  z-index: 2;
+}
+
+/*Ссылка блока feynman*/
+.feynman__link {
+  position: absolute;
+
+  top: 50%;
+  right: 48px;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+  z-index: 2;
 }
