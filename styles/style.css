@@ -9,10 +9,17 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*Общий стиль текста для страницы*/
 .page__font {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Цвет текста - синий*/
+.font-color-blue{
+  color: #2f80ed;
+}
+
+/*Обводит все div красным*/
 div {
   border: 1px solid red;
 }
@@ -100,6 +107,60 @@ div {
   left: 64px;
 
   z-index: 3;
+}
+
+/*Второй блок*/
+.description {
+  display: flex;
+
+  border: 1px solid red;
+}
+
+/*Общий информационный блок в description*/
+.description__two-columns {
+  width: 80%;
+
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Заголовок раздела descriptions*/
+.two-columns__brief {
+  width: 175px;
+
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  text-align: start;
+
+  margin: 0;
+}
+
+/*Блок основного массива текста справа в description*/
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+/*Общий стиль для параграфов*/
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/*Стиль второго параграфа*/
+.two-columns__paragraph-second {
+  margin: 30px 0;
+}
+
+/*Выделение жирным слова - Вывод*/
+.two-columns__span-accent {
+  font-weight: 700;
 }
 
 /* и элемента с модификатором вида ключ-значение */
