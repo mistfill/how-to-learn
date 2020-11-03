@@ -38,6 +38,18 @@ a {
   color: white;
 }
 
+/*Флекс вертикальный*/
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Флекс горизонтальный*/
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
 /*Общий стиль текста для section-title*/
 .section-title {
   text-align: center;
@@ -59,8 +71,6 @@ a {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-
-  display: flex;
   position: relative;
 }
 
@@ -73,16 +83,18 @@ a {
   margin: auto 0;
   padding-left: 64px;
   box-sizing: border-box;
+
   z-index: 2;
 }
 
 /*Нижняя подпись в header*/
 .header__subtitle {
+  position: absolute;
+
   width: 388px;
   font-size: 18px;
   line-height: 25px;
 
-  position: absolute;
   bottom: 30px;
   left: 64px;
 
@@ -92,6 +104,7 @@ a {
 /*Картина - Опять двойка*/
 .header__pic {
   position: absolute;
+
   width: 765px;
   height: 608px;
 
@@ -114,17 +127,17 @@ a {
   background-color: #2f80ed;
 }
 
-/*Лого для header
-Логотип - повторяющийся элемент, далее содержится в подвале сайта.*/
+/*Лого*/
 .logo {
   width: 183px;
 }
 
 /*Изображение лого header*/
 .logo__place_header {
+  position: absolute;
+
   height: 32px;
 
-  position: absolute;
   background-image: url('../images/logo_place_header.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -146,11 +159,8 @@ a {
   width: 80%;
 
   margin: 0 auto;
-
   padding: 100px 0 100px 0;
-
-  display: flex;
-  flex-direction: row;
+  
   justify-content: space-between;
 }
 
@@ -175,6 +185,7 @@ a {
 /*Общий стиль для параграфов*/
 .two-columns__paragraph {
   margin: 0;
+  
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -190,12 +201,6 @@ a {
   font-weight: 700;
 }
 
-/*Общий стиль секции digits*/
-.digits {
-  display: flex;
-  flex-direction: column;
-}
-
 /*Стиль заголовка в digits*/
 .digits__section-title {
   width: 60%;
@@ -205,6 +210,7 @@ a {
 /*Стиль темы в digits*/
 .digits__section-subtitle {
   width: 60%;
+
   margin: auto;
   padding-top: 20px;
 }
@@ -258,9 +264,6 @@ a {
 /*Стиль блока feynman*/
 .feynman {
   position: relative;
-  display: flex;
-  flex-direction: column;
-
   height: 790px;
 }
 
@@ -324,11 +327,8 @@ a {
 /*Общие стили для блока kaufman*/
 .kaufman {
   position: relative;
+  
   margin: 0;
-
-  display: flex;
-  flex-direction: column;
-
   padding-bottom: 90px;
 
   overflow: hidden;
@@ -355,6 +355,7 @@ a {
 /*Заголовок блока kaufman*/
 .kaufman__section-title_theme_dark {
   width: 60%;
+
   margin: 0 auto;
   padding-top: 90px;
   
@@ -364,6 +365,7 @@ a {
 /*Подзаголовок блока kaufman*/
 .kaufman__section-subtitle_theme_dark {
   width: 60%;
+
   margin: 0 auto;
   padding-top: 20px;
 
@@ -382,6 +384,7 @@ a {
   min-height: 350px;
 
   display: flex;
+  flex-direction: row;
 }
 
 /*Стиль общего блока с колонками в footer*/
@@ -390,15 +393,13 @@ a {
 
   margin: 60px auto 40px;
 
-  display: flex;
   justify-content: space-between;
 }
 
 /*Левый большой блок в footer__columns*/
 .footer__column-content-copyright {
   flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
+
   justify-content: space-between;
 }
 
@@ -428,8 +429,6 @@ a {
 
 /*Второй блок в footer*/
 .footer__column-content-info {
-  display: flex;
-  flex-direction: column;
   justify-content: flex-start;
 }
 
@@ -446,8 +445,6 @@ a {
 .footer__column-links {
   padding: 20px 0 18px;
 
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -458,11 +455,6 @@ a {
   font-weight: normal;
 
   color: white;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
 }
 
 /*Стиль иконок соцсетей в подвале*/
