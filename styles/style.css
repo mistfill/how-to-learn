@@ -439,7 +439,7 @@
 }
 
 /*Левый большой блок в footer__columns*/
-.footer__column-content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
 
   display: flex;
