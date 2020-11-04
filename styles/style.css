@@ -93,6 +93,11 @@
   color: #2f80ed;
 }
 
+/*Ссылка в header при наведении*/
+.header__link:hover {
+  opacity: .6;
+}
+
 /*Картина - Опять двойка*/
 .header__main-illustration {
   position: absolute;
@@ -122,6 +127,11 @@
 /*Лого*/
 .logo {
   width: 183px;
+}
+
+/*Лого при наведении*/
+.logo:hover {
+  opacity: .6;
 }
 
 /*Изображение лого header*/
@@ -338,6 +348,11 @@
   z-index: 2;
 }
 
+/**/
+.feynman__link:hover {
+  opacity: .6;
+}
+
 /*Общие стили для блока kaufman*/
 .kaufman {
   position: relative;
@@ -506,6 +521,11 @@
 
   display: flex;
   flex-direction: row;
+}
+
+/**/
+.footer_column-link:hover {
+  opacity: .6;
 }
 
 /*Стиль иконок соцсетей в подвале*/
