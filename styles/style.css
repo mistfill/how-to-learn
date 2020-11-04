@@ -9,10 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.border-red {
-  border: 1px solid red;
-}
-
 /*Цвет фона для темных блоков*/
 .background-color-theme_dark {
   background-color: #1f1f1f;
