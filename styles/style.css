@@ -269,7 +269,7 @@
 /*Стиль блока feynman*/
 .feynman {
   position: relative;
-  height: 790px;
+  min-height: 790px;
 }
 
 /*Фото Фейнмана*/
