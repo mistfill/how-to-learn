@@ -438,12 +438,16 @@
   justify-content: space-between;
 }
 
+/**/
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
 /*Левый большой блок в footer__columns*/
 .footer__column_content_copyright {
   flex-basis: 711px;
 
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -473,8 +477,6 @@
 
 /*Второй блок в footer*/
 .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
   justify-content: flex-start;
 }
 
