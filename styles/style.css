@@ -49,6 +49,8 @@
   flex-direction: column;
 
   background-color: #f2f2f2;
+
+  z-index: 1;
 }
 
 /*Заголовок в header*/
@@ -62,8 +64,6 @@
   margin: auto 0;
   padding-left: 64px;
   box-sizing: border-box;
-
-  z-index: 2;
 }
 
 /*Нижняя подпись в header*/
@@ -80,8 +80,6 @@
 
   bottom: 30px;
   left: 64px;
-
-  z-index: 2;
 }
 
 /*Стиль ссылки в header*/
@@ -108,7 +106,7 @@
   bottom: 0;
   right: 0;
 
-  z-index: 1;
+  z-index: -1;
 }
 
 /*Квадрат синий в header*/
@@ -122,6 +120,8 @@
   right: 0;
 
   background-color: #2f80ed;
+
+  z-index: -1;
 }
 
 /*Лого*/
@@ -148,7 +148,7 @@
   top: 30px;
   left: 64px;
 
-  z-index: 3;
+  z-index: 1;
 }
 
 /*Второй блок на лендинге*/
