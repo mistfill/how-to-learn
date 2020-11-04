@@ -194,11 +194,13 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+
+  padding-bottom: 30px;
 }
 
-/*Стиль второго параграфа*/
-.two-columns__paragraph-second {
-  margin: 30px 0;
+/*Стиль последнего элемента класса two-columns__paragraph*/
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
 }
 
 /*Выделение жирным слова - Вывод*/
