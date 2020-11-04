@@ -489,15 +489,19 @@
 
 /*Блок для ссылок*/
 .footer__column-links {
-  padding: 20px 0 18px;
+  padding: 20px 0 16px;
+
+  margin: 0;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  list-style: none;
 }
 
 /*Индивидуальный стиль ссылок в подвале*/
-.footer_column-links-indiv {
+.footer_column-link {
   text-decoration: none;
 
   line-height: 30px;
