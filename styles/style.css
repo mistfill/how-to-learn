@@ -23,12 +23,6 @@
   color: white;
 }
 
-/*Флекс горизонтальный*/
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
 /*Общий стиль текста для section-title*/
 .section-title {
   text-align: center;
@@ -164,6 +158,8 @@
   margin: 0 auto;
   padding: 100px 0 100px 0;
   
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -429,6 +425,8 @@
 
   margin: 60px auto 40px;
 
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -499,6 +497,9 @@
   font-weight: normal;
 
   color: white;
+
+  display: flex;
+  flex-direction: row;
 }
 
 /*Стиль иконок соцсетей в подвале*/
