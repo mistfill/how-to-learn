@@ -312,8 +312,6 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 700;
-
-  z-index: 2;
 }
 
 /*Подзаголовок блока feynman*/
@@ -326,8 +324,6 @@
   font-size: 36px;
   font-weight: normal;
   text-align: center;
-
-  z-index: 2;
 }
 
 /*Ссылка блока feynman*/
@@ -344,8 +340,6 @@
   font-weight: normal;
 
   color: #2f80ed;
-
-  z-index: 2;
 }
 
 /**/
@@ -369,6 +363,8 @@
   flex-direction: column;
 
   overflow: hidden;
+
+  z-index: 1;
 }
 
 /*Картинка синего треугольника*/
@@ -386,12 +382,7 @@
   background-position: center;
   background-size: contain;
 
-  z-index: 1;
-}
-
-/*Уникальные стили для таблицы в блоке kaufman*/
-.kaufman__table {
-  z-index: 2;
+  z-index: -1;
 }
 
 /*Заголовок блока kaufman*/
@@ -400,8 +391,6 @@
 
   margin: 0 auto;
   padding-top: 90px;
-  
-  z-index: 2;
 }
 
 /*Подзаголовок блока kaufman*/
@@ -410,8 +399,6 @@
 
   margin: 0 auto;
   padding-top: 20px;
-
-  z-index: 2;
 }
 
 /*Ячейка в таблице в блоке table*/
