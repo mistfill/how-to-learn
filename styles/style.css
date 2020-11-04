@@ -17,11 +17,6 @@
   text-decoration: none;
 }
 
-/*Серый фон*/
-.background-color-grey {
-  background-color: #f2f2f2;
-}
-
 /*Цвет фона для темных блоков*/
 .background-color-theme_dark {
   background-color: #1f1f1f;
@@ -40,12 +35,6 @@
 /*Цвет текста для блока с темным фоном*/
 .font-color_theme_dark {
   color: white;
-}
-
-/*Флекс вертикальный*/
-.flex-column {
-  display: flex;
-  flex-direction: column;
 }
 
 /*Флекс горизонтальный*/
@@ -76,6 +65,11 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f2f2f2;
 }
 
 /*Заголовок в header*/
@@ -207,6 +201,12 @@
   font-weight: 700;
 }
 
+/*Общие правила для блока digits*/
+.digits {
+  display: flex;
+  flex-direction: column;
+}
+
 /*Стиль заголовка в digits*/
 .digits__section-title {
   width: 60%;
@@ -270,6 +270,11 @@
 .feynman {
   position: relative;
   min-height: 790px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f2f2f2;
 }
 
 /*Фото Фейнмана*/
@@ -335,6 +340,9 @@
   
   margin: 0;
   padding-bottom: 90px;
+
+  display: flex;
+  flex-direction: column;
 
   overflow: hidden;
 }
@@ -405,6 +413,8 @@
 .footer__column-content-copyright {
   flex-basis: 711px;
 
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -434,6 +444,8 @@
 
 /*Второй блок в footer*/
 .footer__column-content-info {
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
 }
 
@@ -450,6 +462,8 @@
 .footer__column-links {
   padding: 20px 0 18px;
 
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
