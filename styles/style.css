@@ -13,18 +13,9 @@
   border: 1px solid red;
 }
 
-.text-decoration-none {
-  text-decoration: none;
-}
-
 /*Цвет фона для темных блоков*/
 .background-color-theme_dark {
   background-color: #1f1f1f;
-}
-
-/*Цвет текста - синий*/
-.font-color-blue{
-  color: #2f80ed;
 }
 
 /*Цвет текста для блока с темным фоном*/
@@ -104,6 +95,15 @@
   z-index: 2;
 }
 
+/*Стиль ссылки в header*/
+.header__link {
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #2f80ed;
+}
+
 /*Картина - Опять двойка*/
 .header__pic {
   position: absolute;
@@ -177,6 +177,8 @@
   text-align: start;
 
   font-family: Arial, Helvetica, sans-serif;
+
+  color: #2f80ed;
 
   margin: 0;
 }
@@ -340,9 +342,13 @@
   top: 50%;
   right: 48px;
 
+  text-decoration: none;
+
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+
+  color: #2f80ed;
 
   z-index: 2;
 }
@@ -486,6 +492,8 @@
 
 /*Индивидуальный стиль ссылок в подвале*/
 .footer_column-links-indiv {
+  text-decoration: none;
+
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
