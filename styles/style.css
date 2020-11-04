@@ -388,7 +388,7 @@
 }
 
 /*Заголовок блока kaufman*/
-.kaufman__section-title_theme_dark {
+.section-title_theme_dark {
   width: 60%;
 
   margin: 0 auto;
@@ -398,7 +398,7 @@
 }
 
 /*Подзаголовок блока kaufman*/
-.kaufman__section-subtitle_theme_dark {
+.section-subtitle_theme_dark {
   width: 60%;
 
   margin: 0 auto;
