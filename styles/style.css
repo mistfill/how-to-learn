@@ -237,6 +237,8 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+
+  list-style: none;
 }
 
 /*Стиль заголовка в ячейках table*/
