@@ -262,7 +262,6 @@
 /*Стиль ячейки в блоке digits*/
 .table__cell-digits {
   width: 250px;
-  min-height: 50px;
 
   padding-top: 60px;
 }
