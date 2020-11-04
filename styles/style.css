@@ -9,6 +9,10 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.border-red {
+  border: 1px solid red;
+}
+
 .text-decoration-none {
   text-decoration: none;
 }
@@ -94,6 +98,8 @@
   width: 388px;
   font-size: 18px;
   line-height: 25px;
+
+  margin: 0;
 
   bottom: 30px;
   left: 64px;
