@@ -18,11 +18,6 @@
   background-color: #1f1f1f;
 }
 
-/*Цвет текста для блока с темным фоном*/
-.font-color_theme_dark {
-  color: white;
-}
-
 /*Общий стиль текста для section-title*/
 .section-title {
   text-align: center;
@@ -358,7 +353,10 @@
   margin: 0;
   padding-bottom: 90px;
 
+  background-color: #1f1f1f;
+
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 
   display: flex;
   flex-direction: column;
@@ -418,7 +416,10 @@
   display: flex;
   flex-direction: row;
 
+  background-color: #1f1f1f;
+
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 /*Стиль общего блока с колонками в footer*/
