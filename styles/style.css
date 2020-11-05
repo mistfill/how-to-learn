@@ -493,7 +493,7 @@
 }
 
 /*Индивидуальный стиль ссылок в подвале*/
-.footer_column-link {
+.footer__column-link {
   text-decoration: none;
 
   line-height: 30px;
@@ -507,7 +507,7 @@
 }
 
 /**/
-.footer_column-link:hover {
+.footer__column-link:hover {
   opacity: .6;
 }
 
