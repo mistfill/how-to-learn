@@ -504,6 +504,8 @@
 
   display: flex;
   flex-direction: row;
+
+  margin: 0;
 }
 
 /**/
@@ -518,13 +520,4 @@
 
   margin: auto 0;
   padding-right: 10px;
-}
-
-/*Текст внутри ссылок на соцсети в подвале*/
-.footer_column-links-text {
-  margin: 0;
-
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
 }
