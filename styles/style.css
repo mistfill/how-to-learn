@@ -281,6 +281,13 @@
   padding-top: 60px;
 }
 
+/*Ячейка в таблице в блоке table*/
+.table__cell_theme_dark {
+  width: 200px;
+
+  padding-top: 80px;
+}
+
 /*Стиль блока feynman*/
 .feynman {
   position: relative;
@@ -395,13 +402,6 @@
 
   margin: 0 auto;
   padding-top: 20px;
-}
-
-/*Ячейка в таблице в блоке table*/
-.table__cell_theme_dark {
-  width: 200px;
-
-  padding-top: 80px;
 }
 
 /*Общий стиль для подвала*/
