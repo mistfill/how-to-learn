@@ -23,39 +23,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/*Лого*/
-.logo {
-  width: 183px;
-}
-
-/*Лого при наведении*/
-.logo:hover {
-  opacity: .6;
-}
-
-/*Изображение лого header*/
-.logo_place_header {
-  position: absolute;
-
-  height: 32px;
-
-  background-image: url('../images/logo_place_header.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  top: 30px;
-  left: 64px;
-
-  z-index: 1;
-}
-
-/*Второй блок на лендинге*/
-.description {
-  display: flex;
-}
-
 /*Общий информационный блок в description*/
 .two-columns {
   width: 80%;
