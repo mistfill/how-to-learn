@@ -1,0 +1,10 @@
+/*Стиль текста в ячейках table*/
+.table__text {
+  text-align: start;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+  margin: 0;
+  padding-top: 20px;
+}

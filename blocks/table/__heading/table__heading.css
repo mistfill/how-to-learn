@@ -1,0 +1,9 @@
+/*Стиль заголовка в ячейках table*/
+.table__heading {
+  text-align: start;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+
+  margin: 0;
+}

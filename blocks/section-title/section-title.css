@@ -1,0 +1,9 @@
+/*Общий стиль текста для section-title*/
+.section-title {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+
+  font-family: Arial, Helvetica, sans-serif;
+}

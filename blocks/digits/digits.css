@@ -1,0 +1,5 @@
+/*Общие правила для блока digits*/
+.digits {
+  display: flex;
+  flex-direction: column;
+}
