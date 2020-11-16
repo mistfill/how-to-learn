@@ -1,0 +1,15 @@
+/*Общий стиль для параграфов*/
+.two-columns__paragraph {
+  margin: 0;
+  
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
+  padding-bottom: 30px;
+}
+
+/*Стиль последнего элемента класса two-columns__paragraph*/
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
+}

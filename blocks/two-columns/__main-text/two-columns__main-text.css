@@ -1,0 +1,7 @@
+/*Блок основного массива текста справа в description*/
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}

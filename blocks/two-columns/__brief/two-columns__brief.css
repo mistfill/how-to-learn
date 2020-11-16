@@ -1,0 +1,15 @@
+/*Заголовок раздела descriptions*/
+.two-columns__brief {
+  width: 175px;
+
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  text-align: start;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #2f80ed;
+
+  margin: 0;
+}
