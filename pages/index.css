@@ -1,10 +1,10 @@
-/*Общий стиль для страницы*/
+/*Блок Page*/
 @import url("../blocks/page/page.css");
 
-/*Header*/
-@import url("../blocks/page/header/header.css");
-@import url("../blocks/page/header/__title/header__title.css");
-@import url("../blocks/page/header/__subtitle/header__subtitle.css");
-@import url("../blocks/page/header/__link/header__link.css");
-@import url("../blocks/page/header/__square-pic/header__square-pic.css");
-@import url("../blocks/page/header/__main-illustration/header__main-illustration.css");
+/*Блок Header*/
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__title/header__title.css");
+@import url("../blocks/header/__subtitle/header__subtitle.css");
+@import url("../blocks/header/__link/header__link.css");
+@import url("../blocks/header/__square-pic/header__square-pic.css");
+@import url("../blocks/header/__main-illustration/header__main-illustration.css");
