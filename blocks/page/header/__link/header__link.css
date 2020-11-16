@@ -1,0 +1,13 @@
+/*Стиль ссылки в header*/
+.header__link {
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #2f80ed;
+}
+
+/*Ссылка в header при наведении*/
+.header__link:hover {
+  opacity: .6;
+}

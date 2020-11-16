@@ -1,0 +1,12 @@
+/*Заголовок в header*/
+.header__title {
+    width: 730px;
+    font-size: 102px;
+    line-height: 96px;
+  
+    font-family: Arial, Helvetica, sans-serif;
+  
+    margin: auto 0;
+    padding-left: 64px;
+    box-sizing: border-box;
+  }
