@@ -1,6 +1,8 @@
 /*Лого*/
 .logo {
   width: 183px;
+
+  transition: opacity .3s ease-in .3s;
 }
 
 /*Лого при наведении*/

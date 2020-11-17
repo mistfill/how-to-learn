@@ -12,6 +12,8 @@
   font-weight: normal;
 
   color: #2f80ed;
+
+  transition: opacity .3s ease-in .3s;
 }
 
 /**/

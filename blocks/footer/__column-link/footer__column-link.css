@@ -12,6 +12,8 @@
   flex-direction: row;
 
   margin: 0;
+
+  transition: opacity .3s ease-in .3s;
 }
 
 /**/
