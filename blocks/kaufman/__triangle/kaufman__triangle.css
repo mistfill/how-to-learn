@@ -1,0 +1,17 @@
+/*Картинка синего треугольника*/
+.kaufman__triangle {
+  position: absolute;
+
+  width: 877px;
+  height: 877px;
+
+  right: -210px;
+  top: 0;
+
+  background-image: url('/Users/maksimsalnikov/dev/how-to-learn/images/kaufman-triangle.svg'); /*TODO: исправить на короткий путь*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  z-index: -1;
+}

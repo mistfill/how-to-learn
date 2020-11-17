@@ -3,66 +3,6 @@
   background-color: #1f1f1f;
 }
 
-/*Ячейка в таблице в блоке table*/
-.table__cell_theme_dark {
-  width: 200px;
-
-  padding-top: 80px;
-}
-
-/*Общие стили для блока kaufman*/
-.kaufman {
-  position: relative;
-  
-  margin: 0;
-  padding-bottom: 90px;
-
-  background-color: #1f1f1f;
-
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-
-  display: flex;
-  flex-direction: column;
-
-  overflow: hidden;
-
-  z-index: 1;
-}
-
-/*Картинка синего треугольника*/
-.kaufman__triangle {
-  position: absolute;
-
-  width: 877px;
-  height: 877px;
-
-  right: -210px;
-  top: 0;
-
-  background-image: url('../images/kaufman-triangle.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-
-  z-index: -1;
-}
-
-/*Заголовок блока kaufman*/
-.section-title_theme_dark {
-  width: 60%;
-
-  margin: 0 auto;
-  padding-top: 90px;
-}
-
-/*Подзаголовок блока kaufman*/
-.section-subtitle_theme_dark {
-  width: 60%;
-
-  margin: 0 auto;
-  padding-top: 20px;
-}
 
 /*Общий стиль для подвала*/
 .footer {
