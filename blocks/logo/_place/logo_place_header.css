@@ -3,13 +3,8 @@
   position: absolute;
 
   height: 32px;
-
-  /*
-  С изображением логотипа в head у меня какая-то проблема.
-  При использовании короткого пути формата /images/logo_place_header.svg браузер выдает ошибку, что файл не найден.
-  Понятно, что его нужно будет заменить на сервере на короткий путь, но я так и не понял почему не работает. 
-  */
-  background-image: url('/Users/maksimsalnikov/dev/how-to-learn/images/logo_place_header.svg');
+  
+  background-image: url('../../../images/logo_place_header.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

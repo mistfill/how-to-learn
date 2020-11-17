@@ -21,8 +21,8 @@
 
 /*Блок Logo*/
 @import url("../blocks/logo/logo.css");
-@import url("../blocks/logo/_place/logo_place_header.css"); /*TODO: Поправить путь к изображению на короткий*/
-@import url("../blocks/logo/_place/logo_place_footer.css"); /*TODO: Поправить путь к изображению на короткий*/
+@import url("../blocks/logo/_place/logo_place_header.css");
+@import url("../blocks/logo/_place/logo_place_footer.css"); 
 
 /*Блок Header*/
 @import url("../blocks/header/header.css");
