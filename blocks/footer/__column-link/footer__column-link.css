@@ -1,0 +1,20 @@
+/*Индивидуальный стиль ссылок в подвале*/
+.footer__column-link {
+  text-decoration: none;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+
+  margin: 0;
+}
+
+/**/
+.footer__column-link:hover {
+  opacity: .6;
+}

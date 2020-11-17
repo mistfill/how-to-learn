@@ -1,0 +1,4 @@
+/*Второй блок в footer*/
+.footer__column_content_info {
+  justify-content: flex-start;
+}
