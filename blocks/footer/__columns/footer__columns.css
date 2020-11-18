@@ -2,7 +2,7 @@
 .footer__columns {
   width: 90%;
 
-  margin: 60px auto 40px;
+  margin: 0 auto;
 
   display: flex;
   flex-direction: row;

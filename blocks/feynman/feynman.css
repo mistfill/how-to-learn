@@ -3,6 +3,8 @@
   position: relative;
   min-height: 790px;
 
+  padding-top: 80px;
+
   font-family: Arial, Helvetica, sans-serif;
 
   display: flex;
