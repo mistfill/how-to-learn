@@ -1,8 +1,19 @@
+/* Сценарий анимации rotation */
+
 @keyframes rotation {
   from {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
+}
+
+.rotation {
+  /*Задание - Реализуйте анимацию: поворот с равномерной 
+  скоростью по часовой стрелке. Фигура поворачивается на 360 ̊за 20 секунд 
+  и двигается бесконечно. Создайте отдельный БЭМ-блок rotation в файловой структуре. 
+  Используйте микс, чтобы запустить анимацию там, где нужно.*/
+
+  animation: rotation 20s linear .1s infinite normal forwards;
 }

@@ -4,6 +4,9 @@
 /*Блок Page*/
 @import url("../blocks/page/page.css");
 
+/*Сценарии анимации*/
+@import url("../blocks/rotation/rotation.css");
+
 /*Блок section-title*/
 @import url("../blocks/section-title/section-title.css");
 @import url("../blocks/section-title/_theme/section-title_theme_dark.css");
