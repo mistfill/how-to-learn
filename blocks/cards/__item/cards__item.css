@@ -1,0 +1,11 @@
+.cards__item {
+    width: 240px;
+
+    padding-top: 60px;
+
+    padding-left: 100px;
+}
+
+.cards__item:first-child {
+    padding-left: 0;
+}
