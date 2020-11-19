@@ -1,7 +1,12 @@
 .video {
+    /*100px + 69px + 20px + 34px + 50px + 316px*/
+    min-height: calc(69px + 20px + 34px + 50px + 316px - 60px);
+
     margin: 0;
     padding-top: 100px;
 
     display: flex;
     flex-direction: column;
+
+    position: relative;
 }

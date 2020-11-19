@@ -43,6 +43,9 @@
 @import url("../blocks/video/__iframes/video__iframes.css");
 @import url("../blocks/video/__iframe/video__iframe.css");
 
+/*Блок oakley*/
+@import url("../blocks/oakley/oakley.css");
+
 /*Блок Logo*/
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_place/logo_place_header.css");
