@@ -1,0 +1,20 @@
+.khan__buy-link {
+  margin: 0;
+  padding-left: 48px;
+
+  text-decoration: none;
+
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #2f80ed;
+
+  transition: opacity .3s ease-in .3s;
+}
+
+.khan__buy-link:hover {
+    opacity: .6;
+}
