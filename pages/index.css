@@ -28,7 +28,20 @@
 @import url("../blocks/cards/__image/cards__image.css");
 @import url("../blocks/cards/__title/cards__title.css");
 @import url("../blocks/cards/__description/cards__description.css");
+/*Для модификатора ниже было 2 варианта структурирования по БЭМ: 
+1 - От места применения - cards__item_theme_questions
+2 - От описания стиля внутри - cards__item_padding-left_zero
+
+Я выбрал второй вариант, потому что этот стиль может пригодиться позже, да и по первому варианту 
+непонятно из названия, что делает стиль. Надеюсь, правильно :) */
 @import url("../blocks/cards/__item/_padding-left/cards__item_padding-left_zero.css");
+
+/*Блок video*/
+@import url("../blocks/video/video.css");
+@import url("../blocks/video/__section-title/video__section-title.css");
+@import url("../blocks/video/__section-subtitle/video__section-subtitle.css");
+@import url("../blocks/video/__iframes/video__iframes.css");
+@import url("../blocks/video/__iframe/video__iframe.css");
 
 /*Блок Logo*/
 @import url("../blocks/logo/logo.css");
