@@ -1,14 +1,10 @@
 /*Общий стиль для подвала*/
 .footer {
   min-height: 350px;
-
   padding: 60px 0 40px;
-
   display: flex;
   flex-direction: row;
-
   background-color: #1f1f1f;
-
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: white;
 }

@@ -1,10 +1,8 @@
 /*Общий информационный блок в description*/
 .two-columns {
   width: 80%;
-
   margin: 0 auto;
   padding: 0;
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;

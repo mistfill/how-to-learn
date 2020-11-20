@@ -1,6 +1,5 @@
 /*Левый большой блок в footer__columns*/
 .footer__column_content_copyright {
   flex-basis: 711px;
-
   justify-content: space-between;
 }

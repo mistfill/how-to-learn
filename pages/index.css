@@ -1,26 +1,19 @@
-/*TODO: Нужно ли выносить отдельно hover?*/
-
 /*Блок Page*/
 @import url('../blocks/page/page.css');
-
 /*Сценарии анимации*/
 @import url('../blocks/rotation/rotation.css');
-
 /*Блок section-title*/
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_theme/section-title_theme_dark.css');
-
 /*Блок section-subtitle*/
 @import url('../blocks/section-subtitle/');
 @import url('../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css');
-
 /*Блок table*/
 @import url('../blocks/table/table.css');
 @import url('../blocks/table/__cell/table__cell.css');
 @import url('../blocks/table/__cell/_theme/table__cell_theme_dark.css');
 @import url('../blocks/table/__heading/table__heading.css');
 @import url('../blocks/table/__text/table__text.css');
-
 /*Блок cards*/
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/cards/__item/cards__item.css');
@@ -34,22 +27,18 @@
 Я выбрал второй вариант, потому что этот стиль может пригодиться позже, да и по первому варианту
 непонятно из названия, что делает стиль. Надеюсь, правильно :) */
 @import url('../blocks/cards/__item/_padding-left/cards__item_padding-left_zero.css');
-
 /*Блок video*/
 @import url('../blocks/video/video.css');
 @import url('../blocks/video/__section-title/video__section-title.css');
 @import url('../blocks/video/__section-subtitle/video__section-subtitle.css');
 @import url('../blocks/video/__iframes/video__iframes.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
-
 /*Блок oakley*/
 @import url('../blocks/oakley/oakley.css');
-
 /*Блок Logo*/
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place/logo_place_header.css');
 @import url('../blocks/logo/_place/logo_place_footer.css');
-
 /*Блок Header*/
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__title/header__title.css');
@@ -57,33 +46,27 @@
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/header/__square-pic/header__square-pic.css');
 @import url('../blocks/header/__main-illustration/header__main-illustration.css');
-
 /*Блок Description*/
 @import url('../blocks/description/description.css');
-
 /*Блок techniques*/
 @import url('../blocks/techniques/techniques.css');
 @import url('../blocks/techniques/__section-title/techniques__section-title.css');
 @import url('../blocks/techniques/__section-subtitle/techniques__section-subtitle.css');
-
 /*Блок секции two-columns*/
 @import url('../blocks/two-columns/two-columns.css');
 @import url('../blocks/two-columns/__brief/two-columns__brief.css');
 @import url('../blocks/two-columns/__main-text/two-columns__main-text.css');
 @import url('../blocks/two-columns/__paragraph/two-columns__paragraph.css');
 @import url('../blocks/two-columns/__span-accent/two-columns__span-accent.css');
-
 /*Блок digits*/
 @import url('../blocks/digits/digits.css');
 @import url('../blocks/digits/__section-title/digits__section-title.css');
 @import url('../blocks/section-subtitle/section-subtitle.css');
-
 /*Блок feynman*/
 @import url('../blocks/feynman/feynman.css');
 @import url('../blocks/feynman/__title/feynman__title.css');
 @import url('../blocks/feynman/__subtitle/feynman__subtitle.css');
 @import url('../blocks/feynman/__link/feynman__link.css');
-
 /*Блок khan*/
 @import url('../blocks/khan/khan.css');
 @import url('../blocks/khan/__container/khan__container.css');
@@ -95,18 +78,15 @@
 @import url('../blocks/khan/__book-container/khan__book-container.css');
 @import url('../blocks/khan/__book-pic/khan__book-pic.css');
 @import url('../blocks/khan/__buy-link/khan__buy-link.css');
-
 /*Блок kaufman*/
 @import url('../blocks/kaufman/kaufman.css');
 @import url('../blocks/kaufman/__triangle/kaufman__triangle.css');
-
 /*Блок resources*/
 @import url('../blocks/resources/resources.css');
 @import url('../blocks/resources/__section-title/resources__section-title.css');
 @import url('../blocks/resources/__section-subtitle/resources__section-subtitle.css');
 @import url('../blocks/resources/__logo-zone/resources__logo-zone.css');
 @import url('../blocks/resources/__logo/resources__logo.css');
-
 /*Блок footer*/
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__columns/footer__columns.css');

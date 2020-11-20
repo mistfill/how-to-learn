@@ -1,9 +1,7 @@
 /*Стиль общего блока с колонками в footer*/
 .footer__columns {
   width: 90%;
-
   margin: 0 auto;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;

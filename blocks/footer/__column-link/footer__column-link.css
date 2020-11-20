@@ -1,24 +1,18 @@
 /*Индивидуальный стиль ссылок в подвале*/
 .footer__column-link {
   text-decoration: none;
-
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-
   color: white;
-
   display: flex;
   flex-direction: row;
-
   margin: 0;
-
   transition: opacity .3s ease-in .3s;
-
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/**/
+/*При наведении*/
 .footer__column-link:hover {
   opacity: .6;
 }

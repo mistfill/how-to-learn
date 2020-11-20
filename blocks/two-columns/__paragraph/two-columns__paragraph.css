@@ -1,13 +1,10 @@
 /*Общий стиль для параграфов*/
 .two-columns__paragraph {
   margin: 0;
-  
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
   padding-bottom: 30px;
-
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 

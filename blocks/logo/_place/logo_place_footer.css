@@ -1,9 +1,7 @@
 /*Логотип с модификатором footer*/
 .logo_place_footer {
   height: 35px;
-
   margin: 0;
-
   background-image: url('../../../images/logo_place_footer.svg');
   background-position: center;
   background-repeat: no-repeat;

@@ -1,16 +1,11 @@
 .video__iframes {
   position: absolute;
-
   top: calc(100px + 69px + 20px + 34px);
   left: 0;
-
   width: 100%;
   min-height: 316px;
-
   margin: 0 auto;
-
   padding-top: 50px;
-
   display: flex;
   flex-direction: row;
   justify-content: center;

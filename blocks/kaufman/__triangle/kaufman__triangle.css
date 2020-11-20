@@ -1,17 +1,13 @@
 /*Картинка синего треугольника*/
 .kaufman__triangle {
   position: absolute;
-
   width: 877px;
   height: 877px;
-
   right: -210px;
   top: 0;
-
   background-image: url('../../../images/kaufman-triangle.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-
   z-index: -1;
 }

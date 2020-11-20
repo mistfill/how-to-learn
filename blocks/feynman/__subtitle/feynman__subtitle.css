@@ -1,13 +1,10 @@
 /*Подзаголовок блока feynman*/
 .feynman__subtitle {
   width: fit-content;
-
   margin: 70px auto 0;
-
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-align: center;
-
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }

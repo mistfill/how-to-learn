@@ -1,6 +1,5 @@
 /*Стиль ячейки в блоке digits*/
 .table__cell {
   width: 250px;
-
   padding-top: 60px;
 }

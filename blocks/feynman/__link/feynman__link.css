@@ -1,24 +1,18 @@
 /*Ссылка блока feynman*/
 .feynman__link {
   position: absolute;
-
   top: 50%;
   right: 48px;
-
   text-decoration: none;
-
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-
   color: #2f80ed;
-
   transition: opacity .3s ease-in .3s;
-
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/**/
+/*При наведении*/
 .feynman__link:hover {
   opacity: .6;
 }
