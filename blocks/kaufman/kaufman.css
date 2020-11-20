@@ -1,13 +1,13 @@
 /*Общие стили для блока kaufman*/
 .kaufman {
   position: relative;
-  
+
   margin: 0;
   padding: 90px 0;
 
   background-color: #1f1f1f;
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   color: white;
 
   display: flex;
